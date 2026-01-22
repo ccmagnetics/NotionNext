@@ -238,7 +238,7 @@ const CONFIG = {
     '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
 
   // 联系模块
-  STARTER_CONTACT_ENABLE: true, // 联系模块开关
+  STARTER_CONTACT_ENABLE: false, // 联系模块开关
   STARTER_CONTACT_TITLE: '联系我们',
   STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
   STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
@@ -297,9 +297,9 @@ const CONFIG = {
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: '关于我们',
+      TITLE: 'About',
       LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
+        { TITLE: 'About us', URL: '/#home' },
         { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
         {
           TITLE: '帮助支持',
@@ -356,20 +356,20 @@ const CONFIG = {
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
   // 404页面的提示语
-  STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
-  STARTER_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
-  STARTER_404_BACK: '回到主页',
+  STARTER_404_TITLE: 'We seem to have lost the page you are looking for.',
+  STARTER_404_TEXT: 'Sorry! The page you were looking for does not exist. It may have been moved or deleted.',
+  STARTER_404_BACK: 'Back to Homepage',
 
   // 页面底部的行动呼吁模块
   STARTER_CTA_ENABLE: false,
-  STARTER_CTA_TITLE: '你还在等待什么呢？',
-  STARTER_CTA_TITLE_2: '现在开始吧',
+  STARTER_CTA_TITLE: 'What are you waiting for?',
+  STARTER_CTA_TITLE_2: 'Start Now',
   STARTER_CTA_DESCRIPTION:
-    '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+    'Access the NotionNext operating documentation, we provide detailed tutorials to help you set up your site instantly.',
   STARTER_CTA_BUTTON: false, // 是否显示按钮
   STARTER_CTA_BUTTON_URL:
     '',
-  STARTER_CTA_BUTTON_TEXT: '开始体验',
+  STARTER_CTA_BUTTON_TEXT: 'Get Started',
 
   STARTER_POST_REDIRECT_ENABLE: false, // 默認開啟重定向
   STARTER_POST_REDIRECT_URL: 'https://www.magnetics.cc', // 重定向域名
