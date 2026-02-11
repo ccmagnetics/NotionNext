@@ -13,9 +13,9 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: 'Eliminate the $2,000 Per-Ring Tooling Cost.', // 英雄区文字
   STARTER_HERO_TITLE_2: 'Stop waiting on prototyping costs. We provide direct access to 1,000+ production-ready magnetic ring molds, saving your R&D budget over $2,000 per iteration. Your breakthrough starts now.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: 'Access Mold Library', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: 'Inquiry', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
-    'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
+    '/contact', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: '', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: '', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
