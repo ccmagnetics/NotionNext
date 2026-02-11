@@ -297,18 +297,12 @@ const CONFIG = {
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: 'About',
+      TITLE: 'PRODUCTS',
       LINK_GROUP: [
-        { TITLE: 'About us', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
-        {
-          TITLE: '帮助支持',
-          URL: 'https://docs.tangly1024.com/article/how-to-question'
-        },
-        {
-          TITLE: '合作申请',
-          URL: 'https://docs.tangly1024.com/article/my-service'
-        }
+        { TITLE: 'Encoder Magnets', URL: '/encoder-magnets' },
+        { TITLE: 'Magnetic Couplings', URL: '/magnetic-couplings' },
+        { TITLE: 'Magnetic Wheels', URL: '/magnetic-wheels'},
+        { TITLE: 'Magnetic Transmission Parts', URL: '/magnetic-transmission'}
       ]
     },
     {
@@ -326,34 +320,34 @@ const CONFIG = {
       ]
     },
     {
-      TITLE: 'Notion写作',
+      TITLE: 'FOLLOW US',
       LINK_GROUP: [
         {
-          TITLE: 'Notion开始写作',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
+          TITLE: 'Youtube',
+          URL: 'https://www.youtube.com/channel/UC97XH2AIrrPTmlvVb014_6Q'
         },
         {
-          TITLE: '快捷键提升效率',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
+          TITLE: 'Facebook',
+          URL: 'https://www.facebook.com/ccmagnetics'
         },
         {
-          TITLE: '中国大陆使用Notion',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
+          TITLE: 'Linkedin',
+          URL: 'https://www.linkedin.com/company/ccmagnetics/'
         }
       ]
     }
   ],
 
-  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
+  STARTER_FOOTER_BLOG_LATEST_TITLE: 'Latest articles',
 
-  STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
-  STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
+  STARTER_FOOTER_PRIVACY_POLICY_TEXT: '',
+  STARTER_FOOTER_PRIVACY_POLICY_URL: '',
 
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
+  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '',
+  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '',
 
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
+  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '',
+  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '',
 
   // 404页面的提示语
   STARTER_404_TITLE: 'We seem to have lost the page you are looking for.',
