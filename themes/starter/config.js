@@ -306,17 +306,12 @@ const CONFIG = {
       ]
     },
     {
-      TITLE: '功能特性',
+      TITLE: 'USEFUL LINK',
       LINK_GROUP: [
-        {
-          TITLE: '部署指南',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
-        },
-        {
-          TITLE: '升级指南',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
-        },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
+        {TITLE: 'Terms',URL: ''},
+        {TITLE: 'Privacy Policy',URL: ''},
+        { TITLE: 'Faqs', URL: '' },
+        { TITLE: 'Contact', URL: '/contact' }
       ]
     },
     {
