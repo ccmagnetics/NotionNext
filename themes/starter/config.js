@@ -295,22 +295,22 @@ const CONFIG = {
   STARTER_FOOTER_SLOGAN: 'CCmagnetics is a precision manufacturer of magnetic encoder rings and contactless transmission drives. We proudly supply high-performance magnetic solutions to renowned global brands in the automotive, electronics, R&D, and industrial sectors.',
 
   // 页脚三列菜单组
-  STARTER_FOOTER_LINK_GROUP: [
+STARTER_FOOTER_LINK_GROUP: [
     {
       TITLE: 'PRODUCTS',
       LINK_GROUP: [
         { TITLE: 'Encoder Magnets', URL: '/encoder-magnets' },
         { TITLE: 'Magnetic Couplings', URL: '/magnetic-couplings' },
-        { TITLE: 'Magnetic Wheels', URL: '/magnetic-wheels'},
-        { TITLE: 'Magnetic Transmission Parts', URL: '/magnetic-transmission'}
+        { TITLE: 'Magnetic Wheels', URL: '/magnetic-wheels' },
+        { TITLE: 'Magnetic Transmission Parts', URL: '/magnetic-transmission' }
       ]
     },
     {
-      TITLE: 'USEFUL LINK',
+      TITLE: 'USEFUL LINKS', // 改为复数
       LINK_GROUP: [
-        {TITLE: 'Terms',URL: ''},
-        {TITLE: 'Privacy Policy',URL: ''},
-        { TITLE: 'Faqs', URL: '' },
+        { TITLE: 'Terms', URL: '/terms' }, // 补全路径
+        { TITLE: 'Privacy Policy', URL: '/privacy' }, // 补全路径
+        { TITLE: 'FAQs', URL: '/faqs' }, // 修正大小写
         { TITLE: 'Contact', URL: '/contact' }
       ]
     },
@@ -318,7 +318,7 @@ const CONFIG = {
       TITLE: 'FOLLOW US',
       LINK_GROUP: [
         {
-          TITLE: 'Youtube',
+          TITLE: 'YouTube', // 修正大小写
           URL: 'https://www.youtube.com/channel/UC97XH2AIrrPTmlvVb014_6Q'
         },
         {
@@ -326,7 +326,7 @@ const CONFIG = {
           URL: 'https://www.facebook.com/ccmagnetics'
         },
         {
-          TITLE: 'Linkedin',
+          TITLE: 'LinkedIn', // 修正大小写
           URL: 'https://www.linkedin.com/company/ccmagnetics/'
         }
       ]
